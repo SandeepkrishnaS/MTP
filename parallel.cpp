@@ -142,7 +142,7 @@ int main(int argc, char *argv[])
     while(true)
     {
         itold = itnew;
-        itnew = itold + 100;
+        itnew = itold + 100; //Change 100 to 1 if required to check no. of steps 
 
         OSiter(nx, ny, dx, dy, RHSinit, itold, itnew, mat, mat_new);
 
